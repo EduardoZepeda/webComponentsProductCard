@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web component test</title>
+</head>
+<style>
+    body {
+        background-color: #0A0F1D;
+        height: 100vh;
+    }
+</style>
+<body>
+    <product-card 
+        productTitle="Nike Zoom 2020" 
+        productContent="El NikeCourt Air Zoom Vapor Pro toma todo lo que te gusta del NikeCourt Air Zoom Vapor X y lo hace más ligero y con mayor soporte. El diseño de tres capas ofrece transpirabilidad, estabilidad y durabilidad donde más lo necesitas, mientras mantiene el peso al mínimo." 
+        productImg="./imgs/nike-blue.png"
+        productSubtitle="RUNNING COLLECTION"
+        >
+    </product-card>
+    <script type="module" src="./customElements/productCard.js"></script>
+</body>
+</html>
